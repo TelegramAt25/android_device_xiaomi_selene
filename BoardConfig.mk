@@ -132,6 +132,9 @@ BOARD_MAIN_PARTITION_LIST := \
     system \
     vendor
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
