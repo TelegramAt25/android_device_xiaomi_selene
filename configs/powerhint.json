@@ -286,6 +286,15 @@
       "DefaultIndex": 2
     },
     {
+      "Name": "ForegroundCpuset",
+      "Path": "/dev/cpuset/foreground/cpus",
+      "Values": [
+        "0-5",
+        "0-5,7"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "UclampMin",
       "Path": "/proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_uclamp_min",
       "Values": [
@@ -470,6 +479,12 @@
     },
     {
       "PowerHint": "LAUNCH",
+      "Node": "ForegroundCpuset",
+      "Duration": 3000,
+      "Value": "0-5"
+    },
+    {
+      "PowerHint": "LAUNCH",
       "Node": "FBTBoostTA",
       "Duration": 3000,
       "Value": "1"
@@ -548,3 +563,4 @@
     }
   ]
 }
+
