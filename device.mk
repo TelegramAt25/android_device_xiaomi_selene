@@ -151,6 +151,9 @@ PRODUCT_PACKAGES += \
     Aperture
 
 PRODUCT_PACKAGES += \
+    GrapheneOSCamera
+    
+PRODUCT_PACKAGES += \
     libcamera_metadata_shim
 
 # Disable Configstore
