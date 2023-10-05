@@ -440,6 +440,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay-lineage
+
 # Runtime Resource (RRO) Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlaySelene \
