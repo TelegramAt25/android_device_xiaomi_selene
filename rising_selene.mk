@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/selene/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RisingOS stuff
+$(call inherit-product, vendor/rising/config/rising.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -21,12 +21,19 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := selene
-PRODUCT_NAME := lineage_selene
+PRODUCT_NAME := rising_selene
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 10
 PRODUCT_SYSTEM_NAME := selene
 PRODUCT_SYSTEM_DEVICE := selene
+
+# RisingOS flags
+TARGET_ENABLE_PIXEL_FEATURES := true
+RISING_MAINTAINER := fukiame
+RISING_CHIPSET := MT6768
+SUSHI_BOOTANIMATION := 1080
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
