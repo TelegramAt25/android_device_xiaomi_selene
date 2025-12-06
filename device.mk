@@ -469,7 +469,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlaySelene \
     SystemUIOverlaySelene \
     TelephonyOverlaySelene \
-    TetheringConfigOverlay \
+    TetheringConfigOverlaySelene \
     WifiOverlaySelene
 
 # Dynamic Partitions
