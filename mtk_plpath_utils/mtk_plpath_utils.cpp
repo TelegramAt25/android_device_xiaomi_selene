@@ -305,6 +305,7 @@ error:
 
 int setrw_blockdev(const char *p){
     char cmdbuf[128] = {0,};
+    int fd = 0;
     int res = 0;
     snprintf(cmdbuf, sizeof(cmdbuf), "blockdev --setrw  %s", p);
     res = system(cmdbuf);
