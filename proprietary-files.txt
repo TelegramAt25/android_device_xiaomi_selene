@@ -347,7 +347,7 @@ vendor/lib/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 
 # Graphics (Allocator) - from selene-user 13 TP1A.220624.014 V14.0.2.0.TKUCNXM release-keys
-vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek|b5ed2172cf761f04896a68c93b58ae87f407a3e9
+vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek|2d48357f089d3fb604d76004cd35a39e2b8d23d1
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so|172e7dc0c684d82c2f341c9993c686df17a8e2a7
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so|9e7d4e1738b5af2249facce4d287da990aee1531
 
@@ -378,7 +378,7 @@ etc/init/init.vtservice.rc
 -framework/mediatek-ims-extension-plugin.jar
 -framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar|72174984a6b47320086ad6f7305ea47adfabb090
+-framework/mediatek-telephony-base.jar|8790975fc69247a8e1d2d4b574192482367af2ff
 -framework/mediatek-telephony-common.jar
 lib/libcomutils.so
 lib/libimsma.so
@@ -398,7 +398,7 @@ lib64/libmtk_vt_wrapper.so
 lib64/libmtkavenhancements.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
--priv-app/ImsService/ImsService.apk|e384eddb823f15adb36ec80b17670852171b1706
+-priv-app/ImsService/ImsService.apk|2aa09d27a75fda3b32af4d2579d430e26f00f9c7
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
