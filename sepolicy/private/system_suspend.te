@@ -1,3 +1,1 @@
-allow system_suspend sysfs:file { read write open };
-allow system_suspend sysfs:dir { read write open };
 dontaudit system_suspend sysfs:file { open read };
